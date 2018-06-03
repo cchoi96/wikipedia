@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+input[type=text] {
+  padding: 0;
+}
+
+h1 {
+  font-size: 3em;
+  padding-top: 5vh;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+#header, #randomPage, #searchForm {
+  text-align: center;
+}
+
+img {
+  padding: 2%;
+  width: 20%;
+  height: auto;
+  min-width: 200px;
+}
+
+#results {
+  list-style-type: none;
+  text-align: left;
+  padding-top: 5vh;
+  margin-right: 12vw;
+  margin-left: 12vw;
+  display: inline-block;
+}
+
+#results a {
+  font-size: 1.3em;
+}
+
+#results li {
+  margin-bottom: 25px;
+}
